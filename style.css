@@ -1,0 +1,163 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+ul,li,ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+main{
+	max-width: 1550px;
+	min-width: 960px;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	/*font-family: 'PT Sans', sans-serif;*/
+	font-size: 12px;
+	font-weight: 400;
+	color: #fff;
+}
+header{
+	background: url(img/header.jpg) no-repeat;
+	padding-top: 276px;
+	padding-bottom: 330px;
+}
+header h1,
+header h2{
+	text-align: center;
+	width: 480px;
+	margin: 10px auto;
+}
+header h1{
+	font-size: 40px;
+}
+header h2{
+	font-size: 20px;
+}
+.ads{
+	background-color: #2d2d2d;
+	padding: 76px 0px;
+	text-align: center;
+	height: 690px; /*hm*/
+}
+.ads h3{
+	color: #a161db;
+	font-size: 14px;
+}
+.ads h1{
+	color: #fff;
+	font-size: 36px;
+}
+.ads div > div{
+	width: 33.33%;
+	/*height: 300px;*/
+	/*background: #2d2d2d;*/
+	float: left;
+	padding: 35px 0px;
+}
+.ads > div{
+	width: 960px;
+	margin: 0 auto; /*block text-align: center*/
+}
+.ads div > h4{
+	color: #fff;
+	font-size: 24px;
+	text-align: left;
+	padding: 0px 15px;
+}
+.ads div > p{
+	color: #fff;
+	font-size: 12px;
+	text-align: left;
+	padding: 0px 15px;
+}
+.cloudp{
+padding-top: 13px;
+}
+.team{
+	background-color: #ebebeb;
+	padding: 75px 0px;
+	text-align: center;
+}
+
+.team > div{
+	width: 960px;
+	margin: 0 auto;
+}
+.team .pic > div{
+	width: 25%;
+	float: left;
+}
+/*.clearfix{
+	clear: both;
+}*/
+.team h3,
+.team h4{
+	color: #7b7b7b;
+	font-family: 'PT Sans', sans-serif;
+	text-align: left;
+	padding: 0px 20px;
+}
+.team h1{
+	color: #717171;
+	font-size: 36px;
+}
+.team h2{
+	color: #717171;
+	font-size: 14px;
+}
+.team h3{
+	font-size: 18px;
+	font-weight: 700;
+}
+.team h4{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.d > div{
+	background-color: #fff;
+	width: 46.5%;
+	/*height: 464px;*/
+	text-align: left;
+	float: left;
+	padding: 10px;
+}
+.d > div + div{
+	float: right;
+}
+.clearfix{
+	clear: both;
+}
+.purple{
+	color: #6017a3;
+	font-size: 14px;
+	padding: 20px 40px;
+}
+.grey{
+	color: #949494;
+	font-size: 14px;
+	padding: 20px 40px 0px 40px;
+}
+.d div > h1{
+	font-size: 30px;
+	color: #252525;
+	padding: 30px 40px 0px 40px;
+}
+.bottom{
+	background-color: #fff;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.bottom h1{
+	color: #252525;
+	font-size: 30px;
+	padding: 60px 40px 0px 40px;
+}
+.bottom .grey{
+	padding: 0px 40px 60px 40px;
+}
+footer div{
+	background-color: #914dcf;
+	height: 60px;
+}
